@@ -1,22 +1,64 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+.top{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wrap{
+    width: 320px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.section{
+    margin-top: 12px;
+    text-align: left;
+}
+
 input{
-    width: 90%;
+    width: 100%;
     padding: 6px;
     margin-top: 4px;
+    border: 1px solid #999;
 }
 
 select{
-    width: 95%;
-    padding: 5px;
+    width: 100%;
+    padding: 6px;
     margin-top: 4px;
+    border: 1px solid #999;
 }
 
 button{
-    padding: 6px 12px;
+    padding: 6px 10px;
     margin-top: 8px;
+    border: 1px solid #000;
+    background: #f2f2f2;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #e0e0e0;
 }
 
 #resultBox{
     border: 1px solid #999;
-    height: 30px;
+    height: 35px;
     margin-top: 5px;
+    padding: 5px;
+}
+
+.bottom{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 12px;
 }

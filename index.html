@@ -1,41 +1,68 @@
-<div class="section">
-    <p>Height</p>
-    <label>in cm</label><br>
-    <input type="text" id="height" placeholder="e.g. 170">
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>bmi calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<div class="section">
-    <p>Weight</p>
-    <label>in kg</label><br>
-    <input type="text" id="weight" placeholder="e.g. 65">
-</div>
-
-<div class="section">
-    <p>Age</p>
-    <label>optional</label><br>
-    <input type="text" id="age" placeholder="your age">
-</div>
-
-<div class="section">
-    <p>Gender</p>
-    <select id="gender">
-        <option value="">select</option>
-        <option>Male</option>
-        <option>Female</option>
-    </select>
-</div>
-
-<div class="section">
-    <button id="calc">Calculate BMI</button>
-</div>
-
-<div class="section">
-    <button id="reset">Clear</button>
-</div>
-
-<div class="section">
-    <p>Result</p>
-    <div id="resultBox">
-        <span id="result"></span>
+    <div class="top">
+        <h2>BMI calc</h2>
+        <p>simple calculator</p>
     </div>
-</div>
+
+    <div class="wrap">
+        <div class="card">
+
+            <div class="section">
+                <p>Height</p>
+                <label>in cm</label><br>
+                <input type="text" id="height" placeholder="e.g. 170">
+            </div>
+
+            <div class="section">
+                <p>Weight</p>
+                <label>in kg</label><br>
+                <input type="text" id="weight" placeholder="e.g. 65">
+            </div>
+
+            <div class="section">
+                <p>Age</p>
+                <label>optional</label><br>
+                <input type="text" id="age" placeholder="your age">
+            </div>
+
+            <div class="section">
+                <p>Gender</p>
+                <select id="gender">
+                    <option value="">select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+
+            <div class="section">
+                <button id="calc">Calculate BMI</button>
+            </div>
+
+            <div class="section">
+                <button id="reset">Clear</button>
+            </div>
+
+            <div class="section">
+                <p>Result</p>
+                <div id="resultBox">
+                    <span id="result"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <p>basic version</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
